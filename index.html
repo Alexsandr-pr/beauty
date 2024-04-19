@@ -4,10 +4,12 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240419202905">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css?_v=20240419202905">
 	<title>Beauty</title>
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css?_v=20240419202905" />
+	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css?_v=20240419202905" />
 </head>
 	<body>
 		<header class="header ">
@@ -41,7 +43,7 @@
                 </nav>
                 <div class="header-content__items">
                     <div class="header-content__item">
-                        <a class="header-content__numbers" href="">654 876 09 09</a>
+                        <a class="header-content__numbers" href="tel:6548760909">654 876 09 09</a>
                     </div>
                     <div class="header-content__item">
                         <p class="header-content__tell-me header-popap" href=""><span></span> Обратный звонок</p>
@@ -54,34 +56,33 @@
         </div>  
     </div>
     <div class="main-block__body">
-
         <div class="main-block__container">
             <div class="main-block-content__block">
                 
             </div>
             <div class="main-block-content__body">
                 <div class="main-block__content main-block-content">
-                    <div data-da=".main-block-content__block,567,1" class="main-block-content__title block-opacity _anim-items title _anim-items _no-repeat-anim">
-                        <h1>
-                            БЬЮТИ КОВОРКИНГ ДЛЯ <a href="#"><span>ПРИКЛАДНЫХ ЭСТЕТОВ</span></a> 4 СФЕР
+                    <div data-da=".main-block-content__block,567,1" class="main-block-content__title  title">
+                        <h1 data-splitting="chars" id="title-color"> 
+                            БЬЮТИ КОВОРКИНГ ДЛЯ <a href="#"  data-splitting="chars" id="color-span"><span> ПРИКЛАДНЫХ  <span>ЭСТЕТОВ</span></span></a> 4 СФЕР
                         </h1>
                     </div>
                     <div data-da=".main-block-content__block,567,2" class="main-block-content__text text">
-                        <p class="block-opacity _anim-items _no-repeat-anim">Занимайтесь любимым делом, зарабатывая до <a href="#"><span>1 000 000 руб./год,</span></a> арендуя локации в одной из 2 точек сети Vibe Coworking</p>
+                        <p class="">Занимайтесь любимым делом, зарабатывая до <a href="#"><span>1 000 000 руб./год,</span></a> арендуя локации в одной из 2 точек сети Vibe Coworking</p>
                     </div>
-                    <form data-da=".main-block-contents__form,567,1" class="main-block-content__form tel-form block-opacity _anim-items _no-repeat-anim">
+                    <form data-da=".main-block-contents__form,567,1" class="main-block-content__form tel-form ">
                         <button type="submit" class="tel-form__button">
                             <img src="img/maain/main-block/icon/call.svg" alt="tell">
                         </button>
                         <input type="text" class="tel-form__input" placeholder="Your number">
                     </form>
-                    <div data-da=".main-block-contents__form,567,2" class="main-block-content__button button block-opacity _anim-items _no-repeat-anim">
+                    <div data-da=".main-block-contents__form,567,2" class="main-block-content__button button ">
                         <a  href="#">ЗАБРОНИРОВАТЬ ВРЕМЯ</a>
                     </div>
                     
                 </div>
                 <div class="main-block__image">
-                    <img class="block-opacity _anim-items _no-repeat-anim" src="img/maain/main-block/image02.png" alt="Image">
+                    <picture><source srcset="img/maain/main-block/image02.webp" type="image/webp"><img  src="img/maain/main-block/image02.png" alt="Image"></picture>
                 </div>
             </div>
             <div class="main-block-contents__form">
@@ -89,10 +90,11 @@
         </div>       
     </div>
     <div class="main-block-image">
-        <img src="img/maain/main-block/room.png" alt="Image">
+        <picture><source srcset="img/maain/main-block/room.webp" type="image/webp"><img src="img/maain/main-block/room.png" alt="Image"></picture>
     </div>
 </header>
 		<div class="wrapper">
+			
 			<main class="main">
 				<div class="block-top">
 					<i class="fa-regular fa-circle-up"></i>
@@ -105,8 +107,7 @@
 									<p><span>0</span>1</p>
 								</div>
 								<div class="main-number__text">
-									<p>Регулируемые <br> кушетки и стулья
-									</p>
+									<p>Регулируемые <br> кушетки и стулья</p>
 								</div>
 							</div>
 							<div class="main-number__item-image  main-number__item-image-1  ">
@@ -175,7 +176,7 @@
 							</div>
 						</div>
 						<div class="main-case__image  ">
-							<img class="" src="img/maain/case/bg-room.png" alt="room">
+							<picture><source srcset="img/maain/case/bg-room.webp" type="image/webp"><img class="" src="img/maain/case/bg-room.png" alt="room"></picture>
 						</div>
 					</div>
 					<div class="block"></div>
@@ -190,13 +191,13 @@
 								<div class="slider-adress__slide swiper-slide slider-adress-content ">
 									<div class="slider-adress-content__title">
 										<p>01</p>
-										<h2>VIBE COWORKING НА НОВОМ АРБАТЕ<span>: СВЕТЛЫЕ ТОНА И ДЕЛИКАТНЫЕ АКЦЕНТЫ</span></h2>
+										<h2 >VIBE COWORKING НА НОВОМ АРБАТЕ<span>: СВЕТЛЫЕ ТОНА И ДЕЛИКАТНЫЕ АКЦЕНТЫ</span></h2>
 									</div>
 								</div>
 								<div class="slider-adress__slide swiper-slide slider-adress-content  ">
 									<div class="slider-adress-content__title">
 										<p>02</p>
-										<h2>ФИЛИАЛ НА ТРЕТЬЯКОВСКОЙ <span>С ИНТЕРЬЕРОМ В СТИЛЕ МОДЕРН</span></h2>
+										<h2 >ФИЛИАЛ НА ТРЕТЬЯКОВСКОЙ <span>С ИНТЕРЬЕРОМ В СТИЛЕ МОДЕРН</span></h2>
 									</div>
 								</div>
 								<div class="slider-adress__slide swiper-slide slider-adress-content " >
@@ -216,7 +217,7 @@
 						<div class="main-location__container">
 							<div class="main-location__content location-content">
 								<div class="location-content__text ">
-									<p>Благородные белые оттенки доставят эстетическое удовольствие и вам, и клиентам. Тем более, что поддержание чистоты — зона ответственности клининговой службы, <span>мастера следят лишь за своим рабочим местом.</span></p>
+									<p >Благородные белые оттенки доставят эстетическое удовольствие и вам, и клиентам. Тем более, что поддержание чистоты — зона ответственности клининговой службы, <span>мастера следят лишь за своим рабочим местом.</span></p>
 								</div>
 								<div class="location-content-video-blok">
 									<div class="location-content__video ">
@@ -224,8 +225,8 @@
 									</div>
 								</div>
 								<div class="location-content__items items-content">
-									<div class="items-content__title block-opacity _anim-items">
-										<h2>Вот, в каких локациях будут создаваться ваши лучшие работы:</h2>
+									<div class="items-content__title ">
+										<h2 >Вот, в каких локациях будут создаваться ваши лучшие работы:</h2>
 									</div>
 										<div class="content-items">
 											<div class="location-content__item item-arrow block-opacity _anim-items">
@@ -262,7 +263,7 @@
 								<div class="work-location__swiper-wrapper swiper-wrapper">
 									<div class="work-location__slide swiper-slide work-location-slide">
 										<div class="work-location-image__content">
-											<img  src="img/maain/location/work-location.jpg" alt="Image">
+											<picture><source srcset="img/maain/location/work-location.webp" type="image/webp"><img  loading="lazy" src="img/maain/location/work-location.jpg" alt="Image"></picture>
 										</div>
 										<div class="work-location-slide__body">
 											<div class="work-location-slide__content">
@@ -274,16 +275,16 @@
 												</div>
 												<div class="work-location-slide__button">
 													<div class="work-location-slide__btn button">
-														<a href="">ЗАБРОНИРОВАТЬ </a>
+														<a href="/">ЗАБРОНИРОВАТЬ </a>
 													</div>
-													<a href="" class="work-location-slide__button-link">УЗНАТЬ БОЛЬШЕ</a>
+													<a href="/" class="work-location-slide__button-link">УЗНАТЬ БОЛЬШЕ</a>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="work-location__slide swiper-slide work-location-slide">
 										<div class="work-location-image__content">
-											<img  src="img/maain/location/work-location.jpg" alt="Image">
+											<picture><source srcset="img/maain/location/work-location.webp" type="image/webp"><img  loading="lazy" src="img/maain/location/work-location.jpg" alt="Image"></picture>
 										</div>
 										<div class="work-location-slide__body">
 											<div class="work-location-slide__content">
@@ -297,14 +298,14 @@
 													<div class="work-location-slide__btn button">
 														<a href="">ЗАБРОНИРОВАТЬ </a>
 													</div>
-													<a href="" class="work-location-slide__button-link">УЗНАТЬ БОЛЬШЕ</a>
+													<a href="/" class="work-location-slide__button-link">УЗНАТЬ БОЛЬШЕ</a>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="work-location__slide swiper-slide work-location-slide">
 										<div class="work-location-image__content">
-											<img  src="img/maain/location/work-location.jpg" alt="Image">
+											<picture><source srcset="img/maain/location/work-location.webp" type="image/webp"><img  loading="lazy" src="img/maain/location/work-location.jpg" alt="Image"></picture>
 										</div>
 										<div class="work-location-slide__body">
 											<div class="work-location-slide__content">
@@ -318,14 +319,14 @@
 													<div class="work-location-slide__btn button">
 														<a href="">ЗАБРОНИРОВАТЬ </a>
 													</div>
-													<a href="" class="work-location-slide__button-link">УЗНАТЬ БОЛЬШЕ</a>
+													<a href="/" class="work-location-slide__button-link">УЗНАТЬ БОЛЬШЕ</a>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="work-location__slide swiper-slide work-location-slide">
 										<div class="work-location-image__content">
-											<img  src="img/maain/location/work-location.jpg" alt="Image">
+											<picture><source srcset="img/maain/location/work-location.webp" type="image/webp"><img  loading="lazy" src="img/maain/location/work-location.jpg" alt="Image"></picture>
 										</div>
 										<div class="work-location-slide__body">
 											<div class="work-location-slide__content">
@@ -339,14 +340,14 @@
 													<div class="work-location-slide__btn button">
 														<a href="">ЗАБРОНИРОВАТЬ </a>
 													</div>
-													<a href="" class="work-location-slide__button-link">УЗНАТЬ БОЛЬШЕ</a>
+													<a href="/" class="work-location-slide__button-link">УЗНАТЬ БОЛЬШЕ</a>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="work-location__slide swiper-slide work-location-slide">
 										<div class="work-location-image__content">
-											<img  src="img/maain/location/work-location.jpg" alt="Image">
+											<picture><source srcset="img/maain/location/work-location.webp" type="image/webp"><img  loading="lazy" src="img/maain/location/work-location.jpg" alt="Image"></picture>
 										</div>
 										<div class="work-location-slide__body">
 											<div class="work-location-slide__content">
@@ -358,16 +359,16 @@
 												</div>
 												<div class="work-location-slide__button">
 													<div class="work-location-slide__btn button">
-														<a href="">ЗАБРОНИРОВАТЬ </a>
+														<a href="/">ЗАБРОНИРОВАТЬ </a>
 													</div>
-													<a href="" class="work-location-slide__button-link">УЗНАТЬ БОЛЬШЕ</a>
+													<a href="/" class="work-location-slide__button-link">УЗНАТЬ БОЛЬШЕ</a>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="work-location__slide swiper-slide work-location-slide">
 										<div class="work-location-image__content">
-											<img  src="img/maain/location/work-location.jpg" alt="Image">
+											<picture><source srcset="img/maain/location/work-location.webp" type="image/webp"><img  loading="lazy" src="img/maain/location/work-location.jpg" alt="Image"></picture>
 										</div>
 										<div class="work-location-slide__body">
 											<div class="work-location-slide__content">
@@ -379,16 +380,16 @@
 												</div>
 												<div class="work-location-slide__button">
 													<div class="work-location-slide__btn button">
-														<a href="">ЗАБРОНИРОВАТЬ </a>
+														<a href="/">ЗАБРОНИРОВАТЬ </a>
 													</div>
-													<a href="" class="work-location-slide__button-link">УЗНАТЬ БОЛЬШЕ</a>
+													<a href="/" class="work-location-slide__button-link">УЗНАТЬ БОЛЬШЕ</a>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="work-location__slide swiper-slide work-location-slide">
 										<div class="work-location-image__content">
-											<img  src="img/maain/location/work-location.jpg" alt="Image">
+											<picture><source srcset="img/maain/location/work-location.webp" type="image/webp"><img  loading="lazy" src="img/maain/location/work-location.jpg" alt="Image"></picture>
 										</div>
 										<div class="work-location-slide__body">
 											<div class="work-location-slide__content">
@@ -400,9 +401,9 @@
 												</div>
 												<div class="work-location-slide__button">
 													<div class="work-location-slide__btn button">
-														<a href="">ЗАБРОНИРОВАТЬ </a>
+														<a href="/">ЗАБРОНИРОВАТЬ </a>
 													</div>
-													<a href="" class="work-location-slide__button-link">УЗНАТЬ БОЛЬШЕ</a>
+													<a href="/" class="work-location-slide__button-link">УЗНАТЬ БОЛЬШЕ</a>
 												</div>
 											</div>
 										</div>
@@ -444,12 +445,12 @@
 									</div>
 								</div>
 								<div class="main-map__image">
-									<img  src="img/maain/map/image.png" alt="Image">
+									<picture><source srcset="img/maain/map/image.webp" type="image/webp"><img  loading="lazy" src="img/maain/map/image.png" alt="Image"></picture>
 								</div>
 							</div>
 						</div>
 						<div class="main-map-bg__image">
-							<img src="img/maain/map/room-image.png" alt="bg-room">
+							<picture><source srcset="img/maain/map/room-image.webp" type="image/webp"><img  loading="lazy" src="img/maain/map/room-image.png" alt="bg-room"></picture>
 						</div>
 					</div>
 				</section>
@@ -465,7 +466,7 @@
 							<div class="main-life__items ">
 								<div class="main-life__item life-item _anim-items item-left-animation">
 									<div class="life-item__image">
-										<img  src="img/maain/life/image-01.svg" alt="Image">
+										<img  loading="lazy" src="img/maain/life/image-01.svg" alt="Image">
 									</div>
 									<div class="life-item__text " >
 										<p>Сэкономите время на поиске собственного помещения.</p>
@@ -473,7 +474,7 @@
 								</div>
 								<div class="main-life__item life-item _anim-items item-left-animation">
 									<div class="life-item__image">
-										<img src="img/maain/life/image-02.svg" alt="Image">
+										<img  loading="lazy" src="img/maain/life/image-02.svg" alt="Image">
 									</div>
 									<div class="life-item__text">
 										<p>Сбережете деньги — платите за аренду только в рабочие часы.</p>
@@ -481,7 +482,7 @@
 								</div>
 								<div class="main-life__item life-item _anim-items item-left-animation">
 									<div class="life-item__image">
-										<img src="img/maain/life/image-03.svg" alt="Image">
+										<img  loading="lazy" src="img/maain/life/image-03.svg" alt="Image">
 									</div>
 									<div class="life-item__text">
 										<p>Получите дополнительную рекламу — пиарим мастеров у себя в аккаунте</p>
@@ -489,7 +490,7 @@
 								</div>
 								<div class="main-life__item life-item _anim-items item-left-animation">
 									<div class="life-item__image">
-										<img src="img/maain/life/image-04.svg" alt="Image">
+										<img  loading="lazy" src="img/maain/life/image-04.svg" alt="Image">
 									</div>
 									<div class="life-item__text">
 										<p>Повысите лояльность клиентов — им понравится пространство и его атмосфера.
@@ -498,7 +499,7 @@
 								</div>
 								<div class="main-life__item life-item _anim-items item-left-animation">
 									<div class="life-item__image">
-										<img src="img/maain/life/image-05.svg" alt="Image">
+										<img  loading="lazy" src="img/maain/life/image-05.svg" alt="Image">
 									</div>
 									<div class="life-item__text">
 										<p>Построите график под себя, начальник — это вы.
@@ -534,14 +535,14 @@
 							<div class="main-client__items ">
 								<div class="main-client__item client-item client-item-left">
 									<div class="client-item__image client-item__image-01 ">
-										<img  src="img/maain/client/girl-01.png" alt="image girl">
+										<picture><source srcset="img/maain/client/girl-01.webp" type="image/webp"><img  loading="lazy" src="img/maain/client/girl-01.png" alt="image girl"></picture>
 									</div>
 									<div class="client-item__text ">
 										<span >01</span>
 										<p >Были в восторге от атмосферы локаций</p>
 									</div>
 									<div class="client-item__fon-image">
-										<img  src="img/maain/client/fon/room-01.png" alt="image room">
+										<picture><source srcset="img/maain/client/fon/room-01.webp" type="image/webp"><img  loading="lazy" src="img/maain/client/fon/room-01.png" alt="image room"></picture>
 									</div>
 								</div>
 								<div class="main-client__item client-item client-item-right">
@@ -550,23 +551,23 @@
 										<p >Расслаблялись в зоне ожидания с чашкой свежесваренного кофе</p>
 									</div>
 									<div class="client-item__image client-item__image-02 ">
-										<img  src="img/maain/client/girl-02.png" alt="image girl">
+										<picture><source srcset="img/maain/client/girl-02.webp" type="image/webp"><img  loading="lazy" src="img/maain/client/girl-02.png" alt="image girl"></picture>
 									</div>
 									
 									<div class="client-item__fon-image">
-										<img  src="img/maain/client/fon/room-02.png" alt="image room">
+										<picture><source srcset="img/maain/client/fon/room-02.webp" type="image/webp"><img  loading="lazy" src="img/maain/client/fon/room-02.png" alt="image room"></picture>
 									</div>
 								</div>
 								<div class="main-client__item client-item client-item-left">
 									<div class="client-item__image client-item__image-03 ">
-										<img  src="img/maain/client/girl-03.png" alt="image girl">
+										<picture><source srcset="img/maain/client/girl-03.webp" type="image/webp"><img  loading="lazy" src="img/maain/client/girl-03.png" alt="image girl"></picture>
 									</div>
 									<div class="client-item__text ">
 										<span >03</span>
 										<p >Hативно рекламировали вас в своих публикациях и сторис</p>
 									</div>
 									<div class="client-item__fon-image">
-										<img  src="img/maain/client/fon/room-03.png" alt="image room">
+										<picture><source srcset="img/maain/client/fon/room-03.webp" type="image/webp"><img  loading="lazy" src="img/maain/client/fon/room-03.png" alt="image room"></picture>
 									</div>
 								</div>
 								<div class="main-client__item client-item client-item-right">
@@ -575,11 +576,11 @@
 										<p >Оставляли отзывы на внешних ресурсах</p>
 									</div>
 									<div class="client-item__image client-item__image-04 ">
-										<img  src="img/maain/client/girl-04.png" alt="image girl">
+										<picture><source srcset="img/maain/client/girl-04.webp" type="image/webp"><img  loading="lazy" src="img/maain/client/girl-04.png" alt="image girl"></picture>
 									</div>
 									
 									<div class="client-item__fon-image">
-										<img  src="img/maain/client/fon/room-04.png" alt="image room">
+										<picture><source srcset="img/maain/client/fon/room-04.webp" type="image/webp"><img  loading="lazy" src="img/maain/client/fon/room-04.png" alt="image room"></picture>
 									</div>
 								</div>
 							</div>
@@ -587,48 +588,48 @@
 					</div>			
 				</section>
 
-			<section class="main__forms main-forms">
-				<div class="main-forms__body">
-					<div class="main-forms__container">
-						<div class="main-forms__block-header block-header">
-							<div class="block-header__title main-forms__title title _anim-items">
-								<h2><span>ЭКОНОМЬТЕ ВРЕМЯ</span> НА ПОИСКЕ СВОБОДНОГО ПОМЕЩЕНИЯ</h2>
-							</div>
-							<div class="block-header__text main-forms__text text">
-								<p class="block-opacity _anim-items">Попробуйте поработать в нашем коворкинге хотя бы день и заметите, как воодушевлены клиенты и вы сами.</p>
-							</div>
-						</div>
-						<div class="main-forms__item radius">
-							<div class="main-forms__image">
-								<img  src="img/maain/main-forms/image.png" alt="Image">
-							</div>
-							<div class="main-forms__block block-form ">
-								<div class="block-form__title">
-									<h3>Бронируйте помещение</h3>
+				<section class="main__forms main-forms">
+					<div class="main-forms__body">
+						<div class="main-forms__container">
+							<div class="main-forms__block-header block-header">
+								<div class="block-header__title main-forms__title title _anim-items">
+									<h2><span>ЭКОНОМЬТЕ ВРЕМЯ</span> НА ПОИСКЕ СВОБОДНОГО ПОМЕЩЕНИЯ</h2>
 								</div>
-								<div class="block-form__text">
-									<p>Сосредоточьтесь на своей профессиональной деятельности</p>
+								<div class="block-header__text main-forms__text text">
+									<p class="block-opacity _anim-items">Попробуйте поработать в нашем коворкинге хотя бы день и заметите, как воодушевлены клиенты и вы сами.</p>
 								</div>
-								<form  class=" tel-form">
-									<button type="submit" class="tel-form__button">
-										<img src="img/maain/main-block/icon/call.svg" alt="tell">
-									</button>
-									<input type="text" class="tel-form__input" placeholder="Your number">
-								</form>
-								<div class="block-form__button button button-submit">
-									<button type="submit">ВЫБРАТЬ ПОМЕЩЕНИЕ</button>
+							</div>
+							<div class="main-forms__item radius">
+								<div class="main-forms__image">
+									<picture><source srcset="img/maain/main-forms/image.webp" type="image/webp"><img  loading="lazy" src="img/maain/main-forms/image.png" alt="Image"></picture>
 								</div>
-								<label class="block-form-check form-check__label">
-									<input class="form-check__checkbox"  type="checkbox">
-									<span class="form-check__fake"></span>
-									<span class="form-check__text">Я согласна на обработку моих персональных данных в соответствии с <a href="#">условиями</a></span>
-								</label>
+								<div class="main-forms__block block-form ">
+									<div class="block-form__title">
+										<h3>Бронируйте помещение</h3>
+									</div>
+									<div class="block-form__text">
+										<p>Сосредоточьтесь на своей профессиональной деятельности</p>
+									</div>
+									<form  class=" tel-form">
+										<button type="submit" class="tel-form__button">
+											<img src="img/maain/main-block/icon/call.svg" alt="tell">
+										</button>
+										<input type="text" class="tel-form__input" placeholder="Your number">
+									</form>
+									<div class="block-form__button button button-submit">
+										<button type="submit">ВЫБРАТЬ ПОМЕЩЕНИЕ</button>
+									</div>
+									<label class="block-form-check form-check__label">
+										<input class="form-check__checkbox"  type="checkbox">
+										<span class="form-check__fake"></span>
+										<span class="form-check__text">Я согласна на обработку моих персональных данных в соответствии с <a href="#">условиями</a></span>
+									</label>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				
-			</section>
+					
+				</section>
 
 				<section class="main__services radius main-services">
 					<div class="main-services__body">
@@ -647,7 +648,7 @@
 							<div class="main-services__items">
 								<div class="main-services__item item-services item-left-animation  _anim-items">
 									<div class="item-services__image">
-										<img src="img/maain/services/item-image-01.jpg" alt="Image">
+										<picture><source srcset="img/maain/services/item-image-01.webp" type="image/webp"><img  loading="lazy" src="img/maain/services/item-image-01.jpg" alt="Image"></picture>
 										<span></span>
 									</div>
 									<div class="item-services__prof">
@@ -662,7 +663,7 @@
 								</div>
 								<div class="main-services__item item-services  item-left-animation _anim-items">
 									<div class="item-services__image">
-										<img src="img/maain/services/item-image-02.jpg" alt="Image">
+										<picture><source srcset="img/maain/services/item-image-02.webp" type="image/webp"><img  loading="lazy" src="img/maain/services/item-image-02.jpg" alt="Image"></picture>
 										<span></span>
 									</div>
 									<div class="item-services__prof">
@@ -677,7 +678,7 @@
 								</div>
 								<div class="main-services__item item-services item-left-animation _anim-items">
 									<div class="item-services__image">
-										<img src="img/maain/services/item-image-03.jpg" alt="Image">
+										<picture><source srcset="img/maain/services/item-image-03.webp" type="image/webp"><img  loading="lazy" src="img/maain/services/item-image-03.jpg" alt="Image"></picture>
 										<span></span>
 									</div>
 									<div class="item-services__prof">
@@ -692,7 +693,7 @@
 								</div>
 								<div class="main-services__item item-services item-left-animation _anim-items">
 									<div class="item-services__image">
-										<img src="img/maain/services/item-image-04.jpg" alt="Image">
+										<picture><source srcset="img/maain/services/item-image-04.webp" type="image/webp"><img  loading="lazy" src="img/maain/services/item-image-04.jpg" alt="Image"></picture>
 										<span></span>
 									</div>
 									<div class="item-services__prof">
@@ -728,7 +729,7 @@
 									</div>
 									
 									<div class="math-content__image math-content__image-1">
-										<img  src="img/maain/math/4.png" alt="image">
+										<picture><source srcset="img/maain/math/4.webp" type="image/webp"><img  loading="lazy" src="img/maain/math/4.png" alt="image"></picture>
 									</div>
 								</div>
 								<div class="vs">
@@ -736,7 +737,7 @@
 										<p>Маша</p>
 										<span>наемный работник</span>
 									</div>
-									<img src="img/maain/math/vs.svg" alt="image">
+									<img  loading="lazy" src="img/maain/math/vs.svg" alt="image">
 									<div class="math-content__name math-content__name-2 ">
 										<p>Даша</p>
 										<span>предприниматель</span>
@@ -748,7 +749,7 @@
 											до 40тыс./мес. </p>
 										</div>
 									<div class="math-content__image math-content__image-2">
-										<img  src="img/maain/math/3.png" alt="image">
+										<picture><source srcset="img/maain/math/3.webp" type="image/webp"><img  loading="lazy" src="img/maain/math/3.png" alt="image"></picture>
 									</div>
 									
 								</div>
@@ -767,7 +768,7 @@
 						<div class="main-hour__container">
 							<div class="main-hour__block-header block-header">
 								<div class=" block-header__title main-hour__title title-2 _anim-items">
-									<h2><span><a href="">6 ПРЕИМУЩЕСТВ</a></span> ПОЧАСОВОЙ ЛОКАЦИИ
+									<h2><span><a href="/">6 ПРЕИМУЩЕСТВ</a></span> ПОЧАСОВОЙ ЛОКАЦИИ
 									</h2>
 								</div>
 								<div class=" block-header__text main-hour__text text-2">
@@ -777,7 +778,7 @@
 							<div class="main-hour__items">
 								<div class="main-hour__item hour-item item-left-animation _anim-items">
 									<div class="hour-item__image">
-										<img src="img/maain/hour/01.svg" alt="Image">
+										<img  loading="lazy" src="img/maain/hour/01.svg" alt="Image">
 									</div>
 									<div class="hour-item__title">
 										<h3>Ящики с замком для хранения вещей.</h3>
@@ -789,7 +790,7 @@
 								</div>
 								<div class="main-hour__item hour-item item-left-animation _anim-items">
 									<div class="hour-item__image">
-										<img src="img/maain/hour/02.svg" alt="Image">
+										<img  loading="lazy" src="img/maain/hour/02.svg" alt="Image">
 									</div>
 									<div class="hour-item__title">
 										<h3>Возможность покупки расходников.</h3>
@@ -800,7 +801,7 @@
 								</div>
 								<div class="main-hour__item hour-item item-left-animation _anim-items">
 									<div class="hour-item__image">
-										<img src="img/maain/hour/03.svg" alt="Image">
+										<img  loading="lazy" src="img/maain/hour/03.svg" alt="Image">
 									</div>
 									<div class="hour-item__title">
 										<h3>Безлимитный Wi-Fi, чай и кофе для вас и клиентов. </h3>
@@ -812,7 +813,7 @@
 								</div>
 								<div class="main-hour__item hour-item item-left-animation _anim-items">
 									<div class="hour-item__image">
-										<img src="img/maain/hour/04.svg" alt="Image">
+										<img  loading="lazy" src="img/maain/hour/04.svg" alt="Image">
 									</div>
 									<div class="hour-item__title">
 										<h3>Bluetooth-колонки для кабинетов. </h3>
@@ -824,7 +825,7 @@
 								</div>
 								<div class="main-hour__item hour-item item-left-animation _anim-items">
 									<div class="hour-item__image">
-										<img src="img/maain/hour/05.svg" alt="Image">
+										<img  loading="lazy" src="img/maain/hour/05.svg" alt="Image">
 									</div>
 									<div class="hour-item__title">
 										<h3>Профессиональный свет для фотосъемки.</h3>
@@ -836,7 +837,7 @@
 								</div>
 								<div class="main-hour__item hour-item item-left-animation _anim-items">
 									<div class="hour-item__image">
-										<img src="img/maain/hour/06.svg" alt="Image">
+										<img  loading="lazy" src="img/maain/hour/06.svg" alt="Image">
 									</div>
 									<div class="hour-item__title">
 										<h3>Услуги администратора.</h3>
@@ -884,12 +885,12 @@
 									</label>
 								</div>
 								<div class="main-task__image">
-									<img  src="img/maain/task/girl.png" alt="Image">
+									<picture><source srcset="img/maain/task/girl.webp" type="image/webp"><img  loading="lazy" src="img/maain/task/girl.png" alt="Image"></picture>
 								</div>
 							</div>
 						</div>
 						<div class="main-task__image-fon">
-							<img src="img/maain/task/decor-fon.png" alt="Image">
+							<picture><source srcset="img/maain/task/decor-fon.webp" type="image/webp"><img  loading="lazy" src="img/maain/task/decor-fon.png" alt="Image"></picture>
 						</div>
 					</div>
 				</section>
@@ -899,12 +900,12 @@
 						<div class="main-place__container">
 							<div class="main-place__block-header block-header">
 								<div class="block-header__title main-place__title title-2 _anim-items">
-									<h2><span><a href="">VIBE COWORKING</a></span> — МЕСТО СИНТЕЗА ЭСТЕТЕИКИ И БИЗНЕСА</h2>
+									<h2><span><a href="/">VIBE COWORKING</a></span> — МЕСТО СИНТЕЗА ЭСТЕТЕИКИ И БИЗНЕСА</h2>
 								</div>
 							</div>
 							<div class="main-place__content">
 								<div class="main-place__image ">
-									<img  src="img/maain/place/image.png" alt="Image">
+									<picture><source srcset="img/maain/place/image.webp" type="image/webp"><img loading="lazy" src="img/maain/place/image.png" alt="Image"></picture>
 								</div>
 								<div class="main-place__items">
 									<div class="main-place__text text-2">
@@ -914,7 +915,7 @@
 											</p>
 									</div>
 									<div class="main-place__button button ">
-										<a href="">ПОЛУЧИТ КОНСУЛЬТАЧИЮ</a>
+										<a href="/">ПОЛУЧИТЬ КОНСУЛЬТАЧИЮ</a>
 									</div>
 								</div>
 							</div>
@@ -939,19 +940,19 @@
 											<div class="story-slide__item story-slide__item-1">
 												<div class="story-slide__top">
 													<span>до</span>
-													<img src="img/maain/story/dislike@4x.png" alt="image">
+													<picture><source srcset="img/maain/story/dislike@4x.webp" type="image/webp"><img loading="lazy" src="img/maain/story/dislike@4x.png" alt="image"></picture>
 												</div>
 												<ul class="story-slide__list story-slide__list-1">
 													<li class="story-slide__state story-slide__state-1">
-														<a href="">01</a>
+														<span>01</span>
 														<p>Работала в салоне с 8:00 до 21:00 практически <span>без выходных.</span> </p>
 													</li>
 													<li class="story-slide__state story-slide__state-1">
-														<a href="">02</a>
+														<span>02</span>
 														<p> Получала <span>только процент от выручки</span>, остальное забирало начальство.</p>
 													</li>
 													<li class="story-slide__state story-slide__state-1">
-														<a href="">03x</a>
+														<span>03x</span>
 														<p><span>Мало</span> дней отпуска и в неудобное для меня время. </p>
 													</li>
 												</ul>
@@ -962,10 +963,10 @@
 														<span>бровист</span>
 														<p>Мария Беляева</p>
 													</div>
-													<img  src="img/maain/story/girl1.png" alt="Image">
+													<picture><source srcset="img/maain/story/girl1.webp" type="image/webp"><img loading="lazy" src="img/maain/story/girl1.png" alt="Image"></picture>
 												</div>
 												<div class="story-slide-body__button button ">
-													<a href="">хочу так же</a>
+													<a href="/">хочу так же</a>
 												</div>
 												<div class="story-slide-body__text">
 													<p >Присоеденяйтесь к нам и следующими в этом списке будете Вы!</p>
@@ -973,20 +974,20 @@
 											</div>
 											<div class="story-slide__item story-slide__item-2">
 												<div class="story-slide__top">
-													<img src="img/maain/story/like@4x.png" alt="image">
+													<picture><source srcset="img/maain/story/like@4x.webp" type="image/webp"><img loading="lazy" src="img/maain/story/like@4x.png" alt="image"></picture>
 													<span>после</span>
 												</div>
 												<ul class="story-slide__list story-slide__list-2">
 													<li class="story-slide__state story-slide__state-2">
-														<a href="">01</a>
+														<span>01</span>
 														<p>Занимаеюсь делом <span>в свободном графике.</span> </p>
 													</li>
 													<li class="story-slide__state story-slide__state-2">
-														<a href="">02</a>
+														<span>02</span>
 														<p> Зарабатывает <span>больше 150 000 рублей</span> в месяц.</p>
 													</li>
 													<li class="story-slide__state story-slide__state-2">
-														<a href="">03</a>
+														<span>03</span>
 														<p>Путешествую <span>когда захочу</span> и куда захочу. </p>
 													</li>
 												</ul>
@@ -996,19 +997,19 @@
 											<div class="story-slide__item">
 												<div class="story-slide__top">
 													<span>до</span>
-													<img src="img/maain/story/dislike@4x.png" alt="image">
+													<picture><source srcset="img/maain/story/dislike@4x.webp" type="image/webp"><img loading="lazy" src="img/maain/story/dislike@4x.png" alt="image"></picture>
 												</div>
 												<ul class="story-slide__list story-slide__list-1">
 													<li class="story-slide__state story-slide__state-1">
-														<a href="">01</a>
+														<span>01</span>
 														<p>Работала в салоне с 8:00 до 21:00 практически <span>без выходных.</span> </p>
 													</li>
 													<li class="story-slide__state story-slide__state-1">
-														<a href="">02</a>
+														<span>02</span>
 														<p> Получала <span>только процент от выручки</span>, остальное забирало начальство.</p>
 													</li>
 													<li class="story-slide__state story-slide__state-1">
-														<a href="">03x</a>
+														<span>03x</span>
 														<p><span>Мало</span> дней отпуска и в неудобное для меня время. </p>
 													</li>
 												</ul>
@@ -1019,10 +1020,10 @@
 														<span>бровист</span>
 														<p>Мария Беляева</p>
 													</div>
-													<img  src="img/maain/story/girl1.png" alt="Image">
+													<picture><source srcset="img/maain/story/girl1.webp" type="image/webp"><img loading="lazy" src="img/maain/story/girl1.png" alt="Image"></picture>
 												</div>
 												<div class="story-slide-body__button button ">
-													<a href="">хочу так же</a>
+													<span>хочу так же</span>
 												</div>
 												<div class="story-slide-body__text">
 													<p >Присоеденяйтесь к нам и следующими в этом списке будете Вы!</p>
@@ -1030,20 +1031,20 @@
 											</div>
 											<div class="story-slide__item">
 												<div class="story-slide__top">
-													<img src="img/maain/story/like@4x.png" alt="image">
+													<picture><source srcset="img/maain/story/like@4x.webp" type="image/webp"><img loading="lazy" src="img/maain/story/like@4x.png" alt="image"></picture>
 													<span>после</span>
 												</div>
 												<ul class="story-slide__list story-slide__list-2">
 													<li class="story-slide__state story-slide__state-2">
-														<a href="">01</a>
+														<span>01</span>
 														<p>Занимаеюсь делом <span>в свободном графике.</span> </p>
 													</li>
 													<li class="story-slide__state story-slide__state-2">
-														<a href="">02</a>
+														<span>02</span>
 														<p> Зарабатывает <span>больше 150 000 рублей</span> в месяц.</p>
 													</li>
 													<li class="story-slide__state story-slide__state-2">
-														<a href="">03</a>
+														<span>03</span>
 														<p>Путешествую <span>когда захочу</span> и куда захочу. </p>
 													</li>
 												</ul>
@@ -1167,12 +1168,12 @@
 									</label>
 								</div>
 								<div class="main-master__image">
-									<img src="img/maain/master/image.png" alt="Image">
+									<picture><source srcset="img/maain/master/image.webp" type="image/webp"><img loading="lazy" src="img/maain/master/image.png" alt="Image"></picture>
 								</div>
 							</div>
 						</div>
 						<div class="main-master__img-fon">
-							<img src="img/maain/master/room.png" alt="Image">
+							<picture><source srcset="img/maain/master/room.webp" type="image/webp"><img loading="lazy" src="img/maain/master/room.png" alt="Image"></picture>
 						</div>
 					</div>
 				</section>
@@ -1214,15 +1215,16 @@
 								</label>
 							</div>
 							<div class="popup__image popup__image-1">
-								<img src="img/popup/popup-1/image.png" alt="Image">
+								<picture><source srcset="img/popup/popup-1/image.webp" type="image/webp"><img src="img/popup/popup-1/image.png" alt="Image"></picture>
 							</div>
 						</div>
 					</div>
 					<div class="popup-image-fon">
-						<img src="img/popup/popup-1/fon.png" alt="Image">
+						<picture><source srcset="img/popup/popup-1/fon.webp" type="image/webp"><img src="img/popup/popup-1/fon.png" alt="Image"></picture>
 					</div>
 				</div>
 			</div>
+			
 			<div class="popap popap-2 " data-modal>
 				<div class="popup__body ">
 					<div class="popup__container">
@@ -1250,15 +1252,16 @@
 								</div>
 							</div>
 							<div class="popup__image popup__image-2">
-								<img src="img/popup/popup-2/image.jpg" alt="Image">
+								<picture><source srcset="img/popup/popup-2/image.webp" type="image/webp"><img src="img/popup/popup-2/image.jpg" alt="Image"></picture>
 							</div>
 						</div>
 					</div>
 					<div class="popup-image-fon">
-						<img src="img/popup/popup-1/fon.png" alt="Image">
+						<picture><source srcset="img/popup/popup-1/fon.webp" type="image/webp"><img src="img/popup/popup-1/fon.png" alt="Image"></picture>
 					</div>
 				</div>
 			</div>
+
 		</div>
 		<footer class="footer">
     <div class="footer__body">
@@ -1326,8 +1329,8 @@
     </div>
 </footer>
 		
-		<script src="https://kit.fontawesome.com/bc2d359d6d.js" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-		<script src="js/app.min.js"></script>
+		<script src="https://kit.fontawesome.com/bc2d359d6d.js?_v=20240419202905" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js?_v=20240419202905"></script>
+		<script src="js/app.min.js?_v=20240419202905"></script>
 	</body>
 </html>
